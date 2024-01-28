@@ -235,55 +235,25 @@
       <div class="row">
         <div class="row">
           <div class="col-md-12">
-            <h4 class="text-center pb-4 ">fill the form</h4>
-          </div>
+        
         </div>
         <div class="row  justify-content-center pb-4  ">
           <div class="col-md-7 ">
-            <form action="https://api.web3forms.com/submit" method="POST">
-              <div class="mb-3">
-                <input type="hidden" name="access_key" value="dd828770-f674-4976-8496-21da85285914">
-                <label for="exampleInputEmail1" class="form-label text-info">Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+              <div class="contact-left-title">
+                  <h2>fill the form</h2>
+                  <hr>
               </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label text-info">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label pr-2 text-info">select option</label>
-                <div class="select is-rounded pr-2  pb-2 ">
-                  <select>
-                    <option>select paper size</option>
-                    <option>a4</option>
-                    <option>a3</option>
-                  </select>
-                </div>
-                <div class="select is-rounded  pr-2  pb-3 pb-2 ">
-                  <select>
-                    <option>select img type</option>
-                    <option>black and white</option>
-                    <option>color pencil</option>
-                    <option>painting</option>
-                  </select>
-                </div>
-                <div class="select is-rounded  pr-2  pb-3 pb-2">
-                  <select>
-                    <option>select resolation</option>
-                    <option>portrait</option>
-                    <option>landscope</option>
-                  </select>
-                </div>
-              </div>
-              <div class="mb-3 pb-2">
-                <label for="exampleFormControlTextarea1" class="form-label text-info">subject</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary ">Submit</button>
-            </form>
-          </div>
+              <input type="hidden" name="access_key" value="dd828770-f674-4976-8496-21da85285914">
+              <input type="text" name="name" placeholder="your name" class="contact-inputs" required>
+              <input type="email" name="email" placeholder="your email" class="contact-inputs" required>
+              <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
+              <button type="submit">submit</button>
+           </form>
+         </div>
         </div>
       </div>
+    </div>
   </section>
   <footer class="footer">
     <ul class="social-icon">
